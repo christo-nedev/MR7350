@@ -1,5 +1,5 @@
 # linksys-mr7350
-dropbear (SSH) and transmission to mr7350
+dropbear and transmission for mr7350
 
 Serial UART -> check serial.jpg
 
