@@ -5,9 +5,9 @@ Serial UART -> check serial.jpg
 
 cd tmp
 
-wget 
+curl -LJOk https://github.com/christo-nedev/linksys-mr7350/archive/refs/heads/main.zip
 
-unzip master.zip -d /tmp/var/config/opt
+unzip linksys-mr7350-main.zip -d /tmp/var/config/opt
 
 rm master.zip
 
