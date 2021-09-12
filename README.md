@@ -1,5 +1,5 @@
-# mr7350
-dropbear and transmission for mr7350
+# MR7350
+Serial UART. Dropbear and Transmission for MR7350.
 
 Serial UART -> Serial UART.png
 
