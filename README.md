@@ -1,4 +1,4 @@
-# linksys-mr7350
+# mr7350
 dropbear and transmission for mr7350
 
 Serial UART -> Serial UART.png
