@@ -7,9 +7,9 @@ SERVICE_NAME="sshd"
 SERVICE_DEFAULT_HANDLER="/opt/etc/init.d/service_${SERVICE_NAME}.sh"
 
 SERVICE_CUSTOM_EVENTS="\
+                        bridge-status|$SERVICE_DEFAULT_HANDLER; \
                         lan-status|$SERVICE_DEFAULT_HANDLER; \
-                        wan-status|$SERVICE_DEFAULT_HANDLER; \
-                        bridge-status|$SERVICE_DEFAULT_HANDLER \
+                        wan-status|$SERVICE_DEFAULT_HANDLER \
                       "
 
 do_stop() {
